@@ -12,3 +12,5 @@ for (var i = 0; i < cognomi.length; i++) {
   var cognomiOk = document.getElementById('lista_cognomi').innerHTML;
   document.getElementById('lista_cognomi').innerHTML =  cognomiOk + '<li>'+ " " + cognomi[i] + '</li>'
 }
+// STABILISCI POSIZIONE COGNOME cognomeInserito
+document.getElementById('posizione').innerHTML = 'La posizione del tuo cognome è la numero ' +  (cognomi.indexOf(cognomeInserito)+1)
